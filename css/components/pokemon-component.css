@@ -1,11 +1,13 @@
 .pokemon-item {
+    width: auto;
     display: flex;
     align-items: center;
     padding: 1rem;
-    border-top: 1px solid #eee;
+    border: 1px solid #eee;
     gap: 0.8rem;
     font-size: 1rem;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .pokemon-item:hover {
@@ -21,7 +23,6 @@
 .pokemon-name {
     flex-grow: 1;
     font-size: 1rem;
-    font-weight: bold;
 }
 
 .pokemon-level {
@@ -35,7 +36,7 @@
 }
 
 .pokemon-type {
-    width: 50px;
+    width: 55px;
     height: 12px;
     border-radius: 5px;
     background-color: #ccc;
