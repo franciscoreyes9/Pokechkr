@@ -110,3 +110,43 @@
 .btn-secondario:hover {
     opacity: 0.5;
 }
+
+#reset-team {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#reset-team:hover {
+    background-color: #ff1a1a;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #053EFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#search-button:hover {
+    opacity: 0.9;
+}
+
+.remove-pokemon {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.remove-pokemon:hover {
+    background-color: #ff1a1a;
+}
