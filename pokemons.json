@@ -1,0 +1,947 @@
+[
+  {
+    "id": 1,
+    "name": "Treecko",
+    "image": "/assets/images/pokemons/treecko.png",
+    "type1": "Grass",
+    "type2": "none"
+  },
+  {
+    "id": 2,
+    "name": "Grovyle",
+    "image": "/assets/images/pokemons/grovyle.png",
+    "type1": "Grass",
+    "type2": "none"
+  },
+  {
+    "id": 3,
+    "name": "Sceptile",
+    "image": "/assets/images/pokemons/sceptile.png",
+    "type1": "Grass",
+    "type2": "none"
+  },
+  {
+    "id": 4,
+    "name": "Torchic",
+    "image": "/assets/images/pokemons/torchic.png",
+    "type1": "Fire",
+    "type2": "none"
+  },
+  {
+    "id": 5,
+    "name": "Combusken",
+    "image": "/assets/images/pokemons/combusken.png",
+    "type1": "Fire",
+    "type2": "Fighting"
+  },
+  {
+    "id": 6,
+    "name": "Blaziken",
+    "image": "/assets/images/pokemons/blaziken.png",
+    "type1": "Fire",
+    "type2": "Fighting"
+  },
+  {
+    "id": 7,
+    "name": "Mudkip",
+    "image": "/assets/images/pokemons/mudkip.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 8,
+    "name": "Marshtomp",
+    "image": "/assets/images/pokemons/marshtomp.png",
+    "type1": "Water",
+    "type2": "Ground"
+  },
+  {
+    "id": 9,
+    "name": "Swampert",
+    "image": "/assets/images/pokemons/swampert.png",
+    "type1": "Water",
+    "type2": "Ground"
+  },
+  {
+    "id": 10,
+    "name": "Poochyena",
+    "image": "/assets/images/pokemons/poochyena.png",
+    "type1": "Dark",
+    "type2": "none"
+  },
+  {
+    "id": 11,
+    "name": "Mightyena",
+    "image": "/assets/images/pokemons/mightyena.png",
+    "type1": "Dark",
+    "type2": "none"
+  },
+  {
+    "id": 12,
+    "name": "Zigzagoon",
+    "image": "/assets/images/pokemons/zigzagoon.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 13,
+    "name": "Linoone",
+    "image": "/assets/images/pokemons/linoone.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 14,
+    "name": "Wurmple",
+    "image": "/assets/images/pokemons/wurmple.png",
+    "type1": "Bug",
+    "type2": "none"
+  },
+  {
+    "id": 15,
+    "name": "Silcoon",
+    "image": "/assets/images/pokemons/silcoon.png",
+    "type1": "Bug",
+    "type2": "none"
+  },
+  {
+    "id": 16,
+    "name": "Beautifly",
+    "image": "/assets/images/pokemons/beautifly.png",
+    "type1": "Bug",
+    "type2": "Flying"
+  },
+  {
+    "id": 17,
+    "name": "Cascoon",
+    "image": "/assets/images/pokemons/cascoon.png",
+    "type1": "Bug",
+    "type2": "none"
+  },
+  {
+    "id": 18,
+    "name": "Dustox",
+    "image": "/assets/images/pokemons/dustox.png",
+    "type1": "Bug",
+    "type2": "Poison"
+  },
+  {
+    "id": 19,
+    "name": "Lotad",
+    "image": "/assets/images/pokemons/lotad.png",
+    "type1": "Water",
+    "type2": "Grass"
+  },
+  {
+    "id": 20,
+    "name": "Lombre",
+    "image": "/assets/images/pokemons/lombre.png",
+    "type1": "Water",
+    "type2": "Grass"
+  },
+  {
+    "id": 21,
+    "name": "Ludicolo",
+    "image": "/assets/images/pokemons/ludicolo.png",
+    "type1": "Water",
+    "type2": "Grass"
+  },
+  {
+    "id": 22,
+    "name": "Seedot",
+    "image": "/assets/images/pokemons/seedot.png",
+    "type1": "Grass",
+    "type2": "none"
+  },
+  {
+    "id": 23,
+    "name": "Nuzleaf",
+    "image": "/assets/images/pokemons/nuzleaf.png",
+    "type1": "Grass",
+    "type2": "Dark"
+  },
+  {
+    "id": 24,
+    "name": "Shiftry",
+    "image": "/assets/images/pokemons/shiftry.png",
+    "type1": "Grass",
+    "type2": "Dark"
+  },
+  {
+    "id": 25,
+    "name": "Taillow",
+    "image": "/assets/images/pokemons/taillow.png",
+    "type1": "Normal",
+    "type2": "Flying"
+  },
+  {
+    "id": 26,
+    "name": "Swellow",
+    "image": "/assets/images/pokemons/swellow.png",
+    "type1": "Normal",
+    "type2": "Flying"
+  },
+  {
+    "id": 27,
+    "name": "Wingull",
+    "image": "/assets/images/pokemons/wingull.png",
+    "type1": "Water",
+    "type2": "Flying"
+  },
+  {
+    "id": 28,
+    "name": "Pelipper",
+    "image": "/assets/images/pokemons/pelipper.png",
+    "type1": "Water",
+    "type2": "Flying"
+  },
+  {
+    "id": 29,
+    "name": "Ralts",
+    "image": "/assets/images/pokemons/ralts.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 30,
+    "name": "Kirlia",
+    "image": "/assets/images/pokemons/kirlia.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 31,
+    "name": "Gardevoir",
+    "image": "/assets/images/pokemons/gardevoir.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 32,
+    "name": "Surskit",
+    "image": "/assets/images/pokemons/surskit.png",
+    "type1": "Bug",
+    "type2": "Water"
+  },
+  {
+    "id": 33,
+    "name": "Masquerain",
+    "image": "/assets/images/pokemons/masquerain.png",
+    "type1": "Bug",
+    "type2": "Flying"
+  },
+  {
+    "id": 34,
+    "name": "Shroomish",
+    "image": "/assets/images/pokemons/shroomish.png",
+    "type1": "Grass",
+    "type2": "none"
+  },
+  {
+    "id": 35,
+    "name": "Breloom",
+    "image": "/assets/images/pokemons/breloom.png",
+    "type1": "Grass",
+    "type2": "Fighting"
+  },
+  {
+    "id": 36,
+    "name": "Slakoth",
+    "image": "/assets/images/pokemons/slakoth.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 37,
+    "name": "Vigoroth",
+    "image": "/assets/images/pokemons/vigoroth.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 38,
+    "name": "Slaking",
+    "image": "/assets/images/pokemons/slaking.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 39,
+    "name": "Nincada",
+    "image": "/assets/images/pokemons/nincada.png",
+    "type1": "Bug",
+    "type2": "Ground"
+  },
+  {
+    "id": 40,
+    "name": "Ninjask",
+    "image": "/assets/images/pokemons/ninjask.png",
+    "type1": "Bug",
+    "type2": "Flying"
+  },
+  {
+    "id": 41,
+    "name": "Shedinja",
+    "image": "/assets/images/pokemons/shedinja.png",
+    "type1": "Bug",
+    "type2": "Ghost"
+  },
+  {
+    "id": 42,
+    "name": "Whismur",
+    "image": "/assets/images/pokemons/whismur.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 43,
+    "name": "Loudred",
+    "image": "/assets/images/pokemons/loudred.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 44,
+    "name": "Exploud",
+    "image": "/assets/images/pokemons/exploud.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 45,
+    "name": "Makuhita",
+    "image": "/assets/images/pokemons/makuhita.png",
+    "type1": "Fighting",
+    "type2": "none"
+  },
+  {
+    "id": 46,
+    "name": "Hariyama",
+    "image": "/assets/images/pokemons/hariyama.png",
+    "type1": "Fighting",
+    "type2": "none"
+  },
+  {
+    "id": 47,
+    "name": "Azurill",
+    "image": "/assets/images/pokemons/azurill.png",
+    "type1": "Normal",
+    "type2": "Fairy"
+  },
+  {
+    "id": 48,
+    "name": "Nosepass",
+    "image": "/assets/images/pokemons/nosepass.png",
+    "type1": "Rock",
+    "type2": "none"
+  },
+  {
+    "id": 49,
+    "name": "Skitty",
+    "image": "/assets/images/pokemons/skitty.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 50,
+    "name": "Delcatty",
+    "image": "/assets/images/pokemons/delcatty.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 51,
+    "name": "Sableye",
+    "image": "/assets/images/pokemons/sableye.png",
+    "type1": "Dark",
+    "type2": "Ghost"
+  },
+  {
+    "id": 52,
+    "name": "Mawile",
+    "image": "/assets/images/pokemons/mawile.png",
+    "type1": "Steel",
+    "type2": "none"
+  },
+  {
+    "id": 53,
+    "name": "Aron",
+    "image": "/assets/images/pokemons/aron.png",
+    "type1": "Steel",
+    "type2": "Rock"
+  },
+  {
+    "id": 54,
+    "name": "Lairon",
+    "image": "/assets/images/pokemons/lairon.png",
+    "type1": "Steel",
+    "type2": "Rock"
+  },
+  {
+    "id": 55,
+    "name": "Aggron",
+    "image": "/assets/images/pokemons/aggron.png",
+    "type1": "Steel",
+    "type2": "Rock"
+  },
+  {
+    "id": 56,
+    "name": "Meditite",
+    "image": "/assets/images/pokemons/meditite.png",
+    "type1": "Fighting",
+    "type2": "Psychic"
+  },
+  {
+    "id": 57,
+    "name": "Medicham",
+    "image": "/assets/images/pokemons/medicham.png",
+    "type1": "Fighting",
+    "type2": "Psychic"
+  },
+  {
+    "id": 58,
+    "name": "Electrike",
+    "image": "/assets/images/pokemons/electrike.png",
+    "type1": "Electric",
+    "type2": "none"
+  },
+  {
+    "id": 59,
+    "name": "Manectric",
+    "image": "/assets/images/pokemons/manectric.png",
+    "type1": "Electric",
+    "type2": "none"
+  },
+  {
+    "id": 60,
+    "name": "Plusle",
+    "image": "/assets/images/pokemons/plusle.png",
+    "type1": "Electric",
+    "type2": "none"
+  },
+  {
+    "id": 61,
+    "name": "Minun",
+    "image": "/assets/images/pokemons/minun.png",
+    "type1": "Electric",
+    "type2": "none"
+  },
+  {
+    "id": 62,
+    "name": "Volbeat",
+    "image": "/assets/images/pokemons/volbeat.png",
+    "type1": "Bug",
+    "type2": "none"
+  },
+  {
+    "id": 63,
+    "name": "Illumise",
+    "image": "/assets/images/pokemons/illumise.png",
+    "type1": "Bug",
+    "type2": "none"
+  },
+  {
+    "id": 64,
+    "name": "Roselia",
+    "image": "/assets/images/pokemons/roselia.png",
+    "type1": "Grass",
+    "type2": "Poison"
+  },
+  {
+    "id": 65,
+    "name": "Gulpin",
+    "image": "/assets/images/pokemons/gulpin.png",
+    "type1": "Poison",
+    "type2": "none"
+  },
+  {
+    "id": 66,
+    "name": "Swalot",
+    "image": "/assets/images/pokemons/swalot.png",
+    "type1": "Poison",
+    "type2": "none"
+  },
+  {
+    "id": 67,
+    "name": "Carvanha",
+    "image": "/assets/images/pokemons/carvanha.png",
+    "type1": "Water",
+    "type2": "Dark"
+  },
+  {
+    "id": 68,
+    "name": "Sharpedo",
+    "image": "/assets/images/pokemons/sharpedo.png",
+    "type1": "Water",
+    "type2": "Dark"
+  },
+  {
+    "id": 69,
+    "name": "Wailmer",
+    "image": "/assets/images/pokemons/wailmer.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 70,
+    "name": "Wailord",
+    "image": "/assets/images/pokemons/wailord.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 71,
+    "name": "Numel",
+    "image": "/assets/images/pokemons/numel.png",
+    "type1": "Fire",
+    "type2": "Ground"
+  },
+  {
+    "id": 72,
+    "name": "Camerupt",
+    "image": "/assets/images/pokemons/camerupt.png",
+    "type1": "Fire",
+    "type2": "Ground"
+  },
+  {
+    "id": 73,
+    "name": "Torkoal",
+    "image": "/assets/images/pokemons/torkoal.png",
+    "type1": "Fire",
+    "type2": "none"
+  },
+  {
+    "id": 74,
+    "name": "Spoink",
+    "image": "/assets/images/pokemons/spoink.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 75,
+    "name": "Grumpig",
+    "image": "/assets/images/pokemons/grumpig.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 76,
+    "name": "Spinda",
+    "image": "/assets/images/pokemons/spinda.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 77,
+    "name": "Trapinch",
+    "image": "/assets/images/pokemons/trapinch.png",
+    "type1": "Ground",
+    "type2": "none"
+  },
+  {
+    "id": 78,
+    "name": "Vibrava",
+    "image": "/assets/images/pokemons/vibrava.png",
+    "type1": "Ground",
+    "type2": "Dragon"
+  },
+  {
+    "id": 79,
+    "name": "Flygon",
+    "image": "/assets/images/pokemons/flygon.png",
+    "type1": "Ground",
+    "type2": "Dragon"
+  },
+  {
+    "id": 80,
+    "name": "Cacnea",
+    "image": "/assets/images/pokemons/cacnea.png",
+    "type1": "Grass",
+    "type2": "none"
+  },
+  {
+    "id": 81,
+    "name": "Cacturne",
+    "image": "/assets/images/pokemons/cacturne.png",
+    "type1": "Grass",
+    "type2": "Dark"
+  },
+  {
+    "id": 82,
+    "name": "Swablu",
+    "image": "/assets/images/pokemons/swablu.png",
+    "type1": "Normal",
+    "type2": "Flying"
+  },
+  {
+    "id": 83,
+    "name": "Altaria",
+    "image": "/assets/images/pokemons/altaria.png",
+    "type1": "Dragon",
+    "type2": "Flying"
+  },
+  {
+    "id": 84,
+    "name": "Zangoose",
+    "image": "/assets/images/pokemons/zangoose.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 85,
+    "name": "Seviper",
+    "image": "/assets/images/pokemons/seviper.png",
+    "type1": "Poison",
+    "type2": "none"
+  },
+  {
+    "id": 86,
+    "name": "Lunatone",
+    "image": "/assets/images/pokemons/lunatone.png",
+    "type1": "Rock",
+    "type2": "Psychic"
+  },
+  {
+    "id": 87,
+    "name": "Solrock",
+    "image": "/assets/images/pokemons/solrock.png",
+    "type1": "Rock",
+    "type2": "Psychic"
+  },
+  {
+    "id": 88,
+    "name": "Barboach",
+    "image": "/assets/images/pokemons/barboach.png",
+    "type1": "Water",
+    "type2": "Ground"
+  },
+  {
+    "id": 89,
+    "name": "Whiscash",
+    "image": "/assets/images/pokemons/whiscash.png",
+    "type1": "Water",
+    "type2": "Ground"
+  },
+  {
+    "id": 90,
+    "name": "Corphish",
+    "image": "/assets/images/pokemons/corphish.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 91,
+    "name": "Crawdaunt",
+    "image": "/assets/images/pokemons/crawdaunt.png",
+    "type1": "Water",
+    "type2": "Dark"
+  },
+  {
+    "id": 92,
+    "name": "Baltoy",
+    "image": "/assets/images/pokemons/baltoy.png",
+    "type1": "Ground",
+    "type2": "Psychic"
+  },
+  {
+    "id": 93,
+    "name": "Claydol",
+    "image": "/assets/images/pokemons/claydol.png",
+    "type1": "Ground",
+    "type2": "Psychic"
+  },
+  {
+    "id": 94,
+    "name": "Lileep",
+    "image": "/assets/images/pokemons/lileep.png",
+    "type1": "Rock",
+    "type2": "Grass"
+  },
+  {
+    "id": 95,
+    "name": "Cradily",
+    "image": "/assets/images/pokemons/cradily.png",
+    "type1": "Rock",
+    "type2": "Grass"
+  },
+  {
+    "id": 96,
+    "name": "Anorith",
+    "image": "/assets/images/pokemons/anorith.png",
+    "type1": "Rock",
+    "type2": "Bug"
+  },
+  {
+    "id": 97,
+    "name": "Armaldo",
+    "image": "/assets/images/pokemons/armaldo.png",
+    "type1": "Rock",
+    "type2": "Bug"
+  },
+  {
+    "id": 98,
+    "name": "Feebas",
+    "image": "/assets/images/pokemons/feebas.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 99,
+    "name": "Milotic",
+    "image": "/assets/images/pokemons/milotic.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 100,
+    "name": "Castform",
+    "image": "/assets/images/pokemons/castform.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 101,
+    "name": "Kecleon",
+    "image": "/assets/images/pokemons/kecleon.png",
+    "type1": "Normal",
+    "type2": "none"
+  },
+  {
+    "id": 102,
+    "name": "Shuppet",
+    "image": "/assets/images/pokemons/shuppet.png",
+    "type1": "Ghost",
+    "type2": "none"
+  },
+  {
+    "id": 103,
+    "name": "Banette",
+    "image": "/assets/images/pokemons/banette.png",
+    "type1": "Ghost",
+    "type2": "none"
+  },
+  {
+    "id": 104,
+    "name": "Duskull",
+    "image": "/assets/images/pokemons/duskull.png",
+    "type1": "Ghost",
+    "type2": "none"
+  },
+  {
+    "id": 105,
+    "name": "Dusclops",
+    "image": "/assets/images/pokemons/dusclops.png",
+    "type1": "Ghost",
+    "type2": "none"
+  },
+  {
+    "id": 106,
+    "name": "Tropius",
+    "image": "/assets/images/pokemons/tropius.png",
+    "type1": "Grass",
+    "type2": "Flying"
+  },
+  {
+    "id": 107,
+    "name": "Chimecho",
+    "image": "/assets/images/pokemons/chimecho.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 108,
+    "name": "Absol",
+    "image": "/assets/images/pokemons/absol.png",
+    "type1": "Dark",
+    "type2": "none"
+  },
+  {
+    "id": 109,
+    "name": "Wynaut",
+    "image": "/assets/images/pokemons/wynaut.png",
+    "type1": "Psychic",
+    "type2": "none"
+  },
+  {
+    "id": 110,
+    "name": "Snorunt",
+    "image": "/assets/images/pokemons/snorunt.png",
+    "type1": "Ice",
+    "type2": "none"
+  },
+  {
+    "id": 111,
+    "name": "Glalie",
+    "image": "/assets/images/pokemons/glalie.png",
+    "type1": "Ice",
+    "type2": "none"
+  },
+  {
+    "id": 112,
+    "name": "Spheal",
+    "image": "/assets/images/pokemons/spheal.png",
+    "type1": "Ice",
+    "type2": "Water"
+  },
+  {
+    "id": 113,
+    "name": "Sealeo",
+    "image": "/assets/images/pokemons/sealeo.png",
+    "type1": "Ice",
+    "type2": "Water"
+  },
+  {
+    "id": 114,
+    "name": "Walrein",
+    "image": "/assets/images/pokemons/walrein.png",
+    "type1": "Ice",
+    "type2": "Water"
+  },
+  {
+    "id": 115,
+    "name": "Clamperl",
+    "image": "/assets/images/pokemons/clamperl.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 116,
+    "name": "Huntail",
+    "image": "/assets/images/pokemons/huntail.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 117,
+    "name": "Gorebyss",
+    "image": "/assets/images/pokemons/gorebyss.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 118,
+    "name": "Relicanth",
+    "image": "/assets/images/pokemons/relicanth.png",
+    "type1": "Water",
+    "type2": "Rock"
+  },
+  {
+    "id": 119,
+    "name": "Luvdisc",
+    "image": "/assets/images/pokemons/luvdisc.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 120,
+    "name": "Bagon",
+    "image": "/assets/images/pokemons/bagon.png",
+    "type1": "Dragon",
+    "type2": "none"
+  },
+  {
+    "id": 121,
+    "name": "Shelgon",
+    "image": "/assets/images/pokemons/shelgon.png",
+    "type1": "Dragon",
+    "type2": "none"
+  },
+  {
+    "id": 122,
+    "name": "Salamence",
+    "image": "/assets/images/pokemons/salamence.png",
+    "type1": "Dragon",
+    "type2": "Flying"
+  },
+  {
+    "id": 123,
+    "name": "Beldum",
+    "image": "/assets/images/pokemons/beldum.png",
+    "type1": "Steel",
+    "type2": "Psychic"
+  },
+  {
+    "id": 124,
+    "name": "Metang",
+    "image": "/assets/images/pokemons/metang.png",
+    "type1": "Steel",
+    "type2": "Psychic"
+  },
+  {
+    "id": 125,
+    "name": "Metagross",
+    "image": "/assets/images/pokemons/metagross.png",
+    "type1": "Steel",
+    "type2": "Psychic"
+  },
+  {
+    "id": 126,
+    "name": "Regirock",
+    "image": "/assets/images/pokemons/regirock.png",
+    "type1": "Rock",
+    "type2": "none"
+  },
+  {
+    "id": 127,
+    "name": "Regice",
+    "image": "/assets/images/pokemons/regice.png",
+    "type1": "Ice",
+    "type2": "none"
+  },
+  {
+    "id": 128,
+    "name": "Registeel",
+    "image": "/assets/images/pokemons/registeel.png",
+    "type1": "Steel",
+    "type2": "none"
+  },
+  {
+    "id": 129,
+    "name": "Latias",
+    "image": "/assets/images/pokemons/latias.png",
+    "type1": "Dragon",
+    "type2": "Psychic"
+  },
+  {
+    "id": 130,
+    "name": "Latios",
+    "image": "/assets/images/pokemons/latios.png",
+    "type1": "Dragon",
+    "type2": "Psychic"
+  },
+  {
+    "id": 131,
+    "name": "Kyogre",
+    "image": "/assets/images/pokemons/kyogre.png",
+    "type1": "Water",
+    "type2": "none"
+  },
+  {
+    "id": 132,
+    "name": "Groudon",
+    "image": "/assets/images/pokemons/groudon.png",
+    "type1": "Ground",
+    "type2": "none"
+  },
+  {
+    "id": 133,
+    "name": "Rayquaza",
+    "image": "/assets/images/pokemons/rayquaza.png",
+    "type1": "Dragon",
+    "type2": "Flying"
+  },
+  {
+    "id": 134,
+    "name": "Jirachi",
+    "image": "/assets/images/pokemons/jirachi.png",
+    "type1": "Steel",
+    "type2": "Psychic"
+  },
+  {
+    "id": 135,
+    "name": "Deoxys",
+    "image": "/assets/images/pokemons/deoxys.png",
+    "type1": "Psychic",
+    "type2": "none"
+  }
+]

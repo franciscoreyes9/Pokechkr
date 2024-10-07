@@ -1,0 +1,55 @@
+nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
+    padding-left: 24%;
+    padding-right: 24%;
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+}
+
+li a img {
+    display: block;
+    height: 20px;
+    margin-bottom: 0.5vh;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 550;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-bottom: 2px;
+    transition: 0.13s ease-in;
+    color: #090C10;
+}
+
+li a:hover {
+    opacity: 0.6;
+}
+
+#capipalestra {
+    display: flex; /* Ensure the link items inside are aligned in a row */
+    align-items: center;
+    gap: 3px;
+}
+
+#capipalestra .btn-new {
+    margin-left: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-tag {
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: none;
+    border: 1px solid rgba(192, 192, 192, 0.75);
+    position: relative;
+    padding: 6px 12px;
+    border-radius: 30px;
+    cursor: default;
+    color: #272f40;
+
+    width: auto;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-new {
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(161, 119, 255, 0.3);
+    position: relative;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: default;
+    color: #a177ff;
+}
+
+.btn-freccia {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+.btn-freccia::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 2px;
+    background: #090C10;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.btn-freccia:hover::before {
+    transform: scaleX(1);
+}
+
+.btn-freccia::after {
+    content: '🡲';
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
+    position: relative;
+    transform: translateX(0);
+    margin-top: -3px;
+}
+
+.btn-freccia:hover::after {
+    transform: translateX(4px);
+}
+
+.btn-secondario {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background: none;
+    border: none;
+    padding: 0 5px 0 0;
+    cursor: pointer;
+    position: relative;
+    color: #053EFF;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.1s ease-in;
+}
+
+.btn-secondario img {
+    margin-left: 3px;
+    margin-top: -3px;
+    height: 20px;
+}
+
+.btn-secondario:hover {
+    opacity: 0.5;
+}

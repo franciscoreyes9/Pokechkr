@@ -1,0 +1,18 @@
+.links, .rightsReserved {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
+    padding-left: 22%;
+    padding-right: 22%;
+    height: 60px;
+    margin-top: 1px;
+}
+
+.footer p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(9, 12, 16, 0.7);
+}
