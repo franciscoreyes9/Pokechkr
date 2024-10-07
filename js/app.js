@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${pokemon.image}" alt="${pokemon.name}">
                 <p>${pokemon.name}</p>
             </div>
-            <button class="btn remove-pokemon">Remove</button>
+            <button class="btn remove-pokemon">Rimuovi</button>
         `;
             teamMember.querySelector('.remove-pokemon').addEventListener('click', () => removeFromTeam(pokemon));
             teamWrapper.appendChild(teamMember); // Append team member to the wrapper
