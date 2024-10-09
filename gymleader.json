@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Petra",
+    "image": "/assets/images/gym-leaders/roxanne.png",
+    "pokemon": [
+      {
+        "name": "Geodude",
+        "image": "/assets/images/pokemons/geodude.png",
+        "level": 12,
+        "type1": "Rock",
+        "type2": "Ground"
+      },
+      {
+        "name": "Geodude",
+        "image": "/assets/images/pokemons/geodude.png",
+        "level": 12,
+        "type1": "Rock",
+        "type2": "Ground"
+      },
+      {
+        "name": "Nosepass",
+        "image": "/assets/images/pokemons/nosepass.png",
+        "level": 15,
+        "type1": "Rock",
+        "type2": "none"
+      }
+    ]
+  },
+  {
+    "name": "Rudi",
+    "image": "/assets/images/gym-leaders/brawly.png",
+    "pokemon": [
+      {
+        "name": "Machop",
+        "image": "/assets/images/pokemons/machop.png",
+        "level": 16,
+        "type1": "Fight",
+        "type2": "none"
+      },
+      {
+        "name": "Meditite",
+        "image": "/assets/images/pokemons/meditite.png",
+        "level": 16,
+        "type1": "Fight",
+        "type2": "Psychic"
+      },
+      {
+        "name": "Makuhita",
+        "image": "/assets/images/pokemons/makuhita.png",
+        "level": 19,
+        "type1": "Fight",
+        "type2": "none"
+      }
+    ]
+  },
+  {
+    "name": "Walter",
+    "image": "/assets/images/gym-leaders/wattson.png",
+    "pokemon": [
+      {
+        "name": "Voltorb",
+        "image": "/assets/images/pokemons/voltorb.png",
+        "level": 20,
+        "type1": "Electric",
+        "type2": "none"
+      },
+      {
+        "name": "Electrike",
+        "image": "/assets/images/pokemons/electrike.png",
+        "level": 20,
+        "type1": "Electric",
+        "type2": "none"
+      },
+      {
+        "name": "Magneton",
+        "image": "/assets/images/pokemons/magneton.png",
+        "level": 22,
+        "type1": "Electric",
+        "type2": "Steel"
+      },
+      {
+        "name": "Manectric",
+        "image": "/assets/images/pokemons/manectric.png",
+        "level": 24,
+        "type1": "Electric",
+        "type2": "none"
+      }
+    ]
+  },
+  {
+    "name": "Fiammetta",
+    "image": "/assets/images/gym-leaders/flannery.png",
+    "pokemon": [
+      {
+        "name": "Numel",
+        "image": "/assets/images/pokemons/numel.png",
+        "level": 24,
+        "type1": "Fire",
+        "type2": "Ground"
+      },
+      {
+        "name": "Slugma",
+        "image": "/assets/images/pokemons/slugma.png",
+        "level": 24,
+        "type1": "Fire",
+        "type2": "none"
+      },
+      {
+        "name": "Camerupt",
+        "image": "/assets/images/pokemons/camerupt.png",
+        "level": 26,
+        "type1": "Fire",
+        "type2": "Ground"
+      },
+      {
+        "name": "Torkoal",
+        "image": "/assets/images/pokemons/torkoal.png",
+        "level": 29,
+        "type1": "Fire",
+        "type2": "none"
+      }
+    ]
+  },
+  {
+    "name": "Norman",
+    "image": "/assets/images/gym-leaders/norman.png",
+    "pokemon": [
+      {
+        "name": "Spinda",
+        "image": "/assets/images/pokemons/spinda.png",
+        "level": 27,
+        "type1": "Normal",
+        "type2": "none"
+      },
+      {
+        "name": "Vigoroth",
+        "image": "/assets/images/pokemons/vigoroth.png",
+        "level": 27,
+        "type1": "Normal",
+        "type2": "none"
+      },
+      {
+        "name": "Linoone",
+        "image": "/assets/images/pokemons/linoone.png",
+        "level": 29,
+        "type1": "Normal",
+        "type2": "none"
+      },
+      {
+        "name": "Slaking",
+        "image": "/assets/images/pokemons/slaking.png",
+        "level": 31,
+        "type1": "Normal",
+        "type2": "none"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "image": "/assets/images/gym-leaders/winona.png",
+    "pokemon": [
+      {
+        "name": "Swablu",
+        "image": "/assets/images/pokemons/swablu.png",
+        "level": 29,
+        "type1": "Normal",
+        "type2": "Flying"
+      },
+      {
+        "name": "Tropius",
+        "image": "/assets/images/pokemons/tropius.png",
+        "level": 29,
+        "type1": "Grass",
+        "type2": "Flying"
+      },
+      {
+        "name": "Pelipper",
+        "image": "/assets/images/pokemons/pelipper.png",
+        "level": 30,
+        "type1": "Water",
+        "type2": "Flying"
+      },
+      {
+        "name": "Skarmory",
+        "image": "/assets/images/pokemons/skarmory.png",
+        "level": 31,
+        "type1": "Steel",
+        "type2": "Flying"
+      },
+      {
+        "name": "Altaria",
+        "image": "/assets/images/pokemons/altaria.png",
+        "level": 33,
+        "type1": "Dragon",
+        "type2": "Flying"
+      }
+    ]
+  },
+  {
+    "name": "Tell e Pat",
+    "image": "/assets/images/gym-leaders/tate-liza.png",
+    "pokemon": [
+      {
+        "name": "Claydol",
+        "image": "/assets/images/pokemons/claydol.png",
+        "level": 41,
+        "type1": "Ground",
+        "type2": "Psychic"
+      },
+      {
+        "name": "Xatu",
+        "image": "/assets/images/pokemons/xatu.png",
+        "level": 41,
+        "type1": "Psychic",
+        "type2": "Flying"
+      },
+      {
+        "name": "Lunaton",
+        "image": "/assets/images/pokemons/lunatone.png",
+        "level": 42,
+        "type1": "Rock",
+        "type2": "Psychic"
+      },
+      {
+        "name": "Solrock",
+        "image": "/assets/images/pokemons/solrock.png",
+        "level": 42,
+        "type1": "Rock",
+        "type2": "Psychic"
+      }
+    ]
+  },
+  {
+    "name": "Rodolfo",
+    "image": "/assets/images/gym-leaders/juan.png",
+    "pokemon": [
+      {
+        "name": "Luvdisc",
+        "image": "/assets/images/pokemons/luvdisc.png",
+        "level": 41,
+        "type1": "Water",
+        "type2": "none"
+      },
+      {
+        "name": "Whiscash",
+        "image": "/assets/images/pokemons/whiscash.png",
+        "level": 41,
+        "type1": "Water",
+        "type2": "Ground"
+      },
+      {
+        "name": "Sealeo",
+        "image": "/assets/images/pokemons/sealeo.png",
+        "level": 43,
+        "type1": "Ice",
+        "type2": "Water"
+      },
+      {
+        "name": "Crawdaunt",
+        "image": "/assets/images/pokemons/crawdaunt.png",
+        "level": 43,
+        "type1": "Water",
+        "type2": "Dark"
+      },
+      {
+        "name": "Kingdra",
+        "image": "/assets/images/pokemons/kingdra.png",
+        "level": 46,
+        "type1": "Water",
+        "type2": "Dragon"
+      }
+    ]
+  }
+]

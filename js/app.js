@@ -108,9 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const teamContainer = document.getElementById('team-members');
         teamContainer.innerHTML = '';
 
-        // Create a wrapper div for the team members
         const teamWrapper = document.createElement('div');
-        teamWrapper.classList.add('team-wrapper'); // Optional: Add a class for styling
+        teamWrapper.classList.add('team-wrapper');
 
         teamPokemons.forEach(pokemon => {
             const teamMember = document.createElement('div');
@@ -148,3 +147,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+//completo credo
