@@ -122,10 +122,10 @@ document.addEventListener('DOMContentLoaded', () => {
             <button class="btn remove-pokemon">Rimuovi</button>
         `;
             teamMember.querySelector('.remove-pokemon').addEventListener('click', () => removeFromTeam(pokemon));
-            teamWrapper.appendChild(teamMember); // Append team member to the wrapper
+            teamWrapper.appendChild(teamMember);
         });
 
-        teamContainer.appendChild(teamWrapper); // Append the wrapper to the main container
+        teamContainer.appendChild(teamWrapper);
         updateTeamTypes();
     }
 
