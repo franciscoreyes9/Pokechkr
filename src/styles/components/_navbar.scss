@@ -1,26 +1,45 @@
 .navbar {
-  background-color: #ff0000;
+  background-color: $navbar-bg;
   padding: 1rem;
+  box-shadow: 0 2px 4px rgba($gray-900, 0.1);
 
   &__container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
-  &__links {
-    display: flex;
-    gap: 1rem;
-  }
-
-  a {
-    color: white;
+  &__logo {
+    color: $navbar-text;
+    font-size: 1.5rem;
+    font-weight: bold;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $accent;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__link {
+    color: $navbar-text;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $secondary;
+    }
+
+    &.active {
+      color: $accent;
+      border-bottom: 2px solid $accent;
     }
   }
 }

@@ -1,0 +1,30 @@
+// Color Palette
+$red-500: #FF5350;
+$blue-500: #3B4CCA;
+$yellow-500: #FFDE00;
+$gray-900: #1A1A1A;
+$gray-800: #2A2A2A;
+$gray-600: #666666;
+$white: #FFFFFF;
+$gray-100: #F5F5F5;
+
+// Semantic Colors
+$primary: $gray-900;
+$secondary: $red-500;
+$accent: $blue-500;
+$warning: $yellow-500;
+$success: $blue-500;
+
+// Text Colors
+$text-primary: $gray-800;
+$text-secondary: $gray-600;
+
+// Background Colors
+$background: $white;
+$background-alt: $gray-100;
+
+// Component-specific colors
+$navbar-bg: $primary;
+$navbar-text: $white;
+$button-primary-bg: $secondary;
+$button-primary-text: $white;

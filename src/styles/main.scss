@@ -1,3 +1,4 @@
+@import 'variables';
 @import 'components/navbar';
 @import 'components/footer';
 
@@ -8,17 +9,22 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   min-height: 100vh;
+  background-color: $background;
+  color: $text-primary;
 }
 
 .app {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: $background;
 }
 
 main {
   flex: 1;
   padding: 20px;
+  background-color: $background;
+  color: $text-primary;
 }

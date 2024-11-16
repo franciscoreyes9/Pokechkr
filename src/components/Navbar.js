@@ -1,20 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar__container">
-                <Link to="/" className="navbar__brand">Pokéchkr</Link>
-                <div className="navbar__links">
-                    <Link to="/pokedex">Pokédex</Link>
-                    <Link to="/team-builder">Team Builder</Link>
-                    <Link to="/gym-leaders">Gym Leaders</Link>
-                    <Link to="/legend">Legend</Link>
+                <NavLink to="/" className="navbar__logo">
+                    Pokemon App
+                </NavLink>
+                <div className="navbar__nav">
+                    <NavLink to="/pokedex" className="navbar__link">
+                        Pokedex
+                    </NavLink>
+                    <NavLink to="/team-builder" className="navbar__link">
+                        Team Builder
+                    </NavLink>
+                    <NavLink to="/gym-leaders" className="navbar__link">
+                        Gym Leaders
+                    </NavLink>
+                    <NavLink to="/legend" className="navbar__link">
+                        Legend
+                    </NavLink>
                 </div>
             </div>
         </nav>
     );
-}
+};
 
 export default Navbar;
