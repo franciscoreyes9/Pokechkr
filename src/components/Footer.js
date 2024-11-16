@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer__copyright">
-                © 2024 Pokemon App. All rights reserved.
+                © 2024 Pokéchkr. All rights reserved.
             </div>
         </footer>
     );

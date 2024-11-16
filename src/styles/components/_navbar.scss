@@ -1,45 +1,66 @@
 .navbar {
-  background-color: $navbar-bg;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba($gray-900, 0.1);
+  background-color: $white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+  box-shadow: rgba($gray-900, 0.075) 0 1px;
 
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  &__logo {
-    color: $navbar-text;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover {
-      color: $accent;
-    }
+    padding-left: 24%;
+    padding-right: 24%;
+    height: 100%;
+    text-align: center;
   }
 
   &__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    gap: 0.8vw;
   }
 
   &__link {
-    color: $navbar-text;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    padding: 0.5rem;
-    transition: color 0.3s ease;
+    font-weight: 550;
+    padding: {
+      left: 0.5vw;
+      right: 0.5vw;
+      bottom: 2px;
+    }
+    transition: 0.1s ease-in;
+    color: $gray-900;
 
     &:hover {
-      color: $secondary;
+      opacity: 0.6;
     }
 
-    &.active {
-      color: $accent;
-      border-bottom: 2px solid $accent;
+    img {
+      display: block;
+      height: 1.2rem;
+      margin-bottom: 0.5vh;
+    }
+  }
+
+  &__link--pokedex {
+    color: $blue-500;
+  }
+
+  &__gymleaders {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    .btn-new {
+      margin-left: 8px;
+      cursor: pointer;
     }
   }
 }
