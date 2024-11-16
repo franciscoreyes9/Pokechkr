@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #ff0000;
+  padding: 1rem;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
