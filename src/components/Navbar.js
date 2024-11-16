@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar__container">
                 <NavLink to="/" className="navbar__logo">
-                    Pokemon App
+                    Pokéchkr
                 </NavLink>
                 <div className="navbar__nav">
                     <NavLink to="/pokedex" className="navbar__link">
