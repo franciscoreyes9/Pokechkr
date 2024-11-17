@@ -1,0 +1,24 @@
+@import "../variables";
+
+.pokemon-card {
+  &--simple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: rgba($gray-900, 0.075) 1px solid;
+    box-shadow: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+
+    .pokemon-card__image {
+      width: 80px;
+      height: auto;
+    }
+
+    &:hover {
+      background-color: $background-alt;
+    }
+  }
+}

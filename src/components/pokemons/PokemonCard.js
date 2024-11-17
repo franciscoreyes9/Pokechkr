@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { getPokemon, getPokemonSpecies } from '../../services/pokeApi';
+import "../../styles/components/_pokemoncard.scss"
 
-const PokemonCard = ({ pokemonId }) => {
+const PokemonCard = ({ pokemonId, simple }) => {
     const [pokemon, setPokemon] = useState(null);
     const [species, setSpecies] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -50,6 +51,18 @@ const PokemonCard = ({ pokemonId }) => {
     }
 
     if (!pokemon || !species) return null;
+
+    if (simple) {
+        return (
+            <div className="pokemon-card pokemon-card--simple">
+                <img
+                    src={pokemon.sprites.front_default}
+                    alt={pokemon.name}
+                    className="pokemon-card__image"
+                />
+            </div>
+        );
+    }
 
     const englishDescription = species.flavor_text_entries
         .find(entry => entry.language.name === 'en')
