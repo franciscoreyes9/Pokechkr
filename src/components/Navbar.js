@@ -12,11 +12,6 @@ const Navbar = () => {
 
                 <ul className="navbar__nav">
                     <li>
-                        <NavLink to="/pokedex" className="navbar__link navbar__link--pokedex">
-                            Pokedex
-                        </NavLink>
-                    </li>
-                    <li>
                         <NavLink to="/team-builder" className="navbar__link">
                             Team Builder
                         </NavLink>
@@ -29,6 +24,11 @@ const Navbar = () => {
                     <li>
                         <NavLink to="/legend" className="navbar__link">
                             Legend
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/pokedex" className="navbar__link navbar__link--pokedex">
+                            Pokédex
                         </NavLink>
                     </li>
                 </ul>

@@ -1,17 +1,17 @@
 .navbar {
-  background-color: $white;
+  background-color: $background;
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 60px;
+  height: 80px;
   box-shadow: rgba($gray-900, 0.075) 0 1px;
 
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 24%;
-    padding-right: 24%;
+    padding-left: 20%;
+    padding-right: 20%;
     height: 100%;
     text-align: center;
   }
@@ -33,10 +33,9 @@
     padding: {
       left: 0.5vw;
       right: 0.5vw;
-      bottom: 2px;
     }
     transition: 0.1s ease-in;
-    color: $gray-900;
+    color: $text-primary;
 
     &:hover {
       opacity: 0.6;
@@ -51,16 +50,5 @@
 
   &__link--pokedex {
     color: $blue-500;
-  }
-
-  &__gymleaders {
-    display: flex;
-    align-items: center;
-    gap: 3px;
-
-    .btn-new {
-      margin-left: 8px;
-      cursor: pointer;
-    }
   }
 }

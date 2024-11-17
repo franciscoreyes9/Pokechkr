@@ -1,8 +1,15 @@
+import HoverCard from "../components/HoverCard";
+
 const Home = () => {
     return (
-        <div style={{backgroundColor: "red", padding: "20px"}}>
-            <h1>Home Page</h1>
-            <p>This is a test</p>
+        <div className="first-home-container">
+            <div className="tagContainer">
+                <button className="btn btn-tag">Team Builder</button>
+            </div>
+            <h1>Plan your game in advance</h1>
+            <div className="hover-card-wrapper">
+                <HoverCard/>
+            </div>
         </div>
     );
 }
