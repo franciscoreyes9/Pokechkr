@@ -57,11 +57,9 @@ const PokemonCard = ({ pokemonId }) => {
 
     return (
         <div className="pokemon-card">
-            <div className="pokemon-card__header">
-                <h2 className="pokemon-card__title">
-                    {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}
-                </h2>
-            </div>
+            <h2 className="pokemon-card__title">
+                {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}
+            </h2>
             <div className="pokemon-card__content">
                 <div className="pokemon-card__image-container">
                     <img
