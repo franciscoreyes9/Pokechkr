@@ -1,4 +1,5 @@
 import HoverCard from "../components/HoverCard";
+import PokemonCard from "../components/pokemons/PokemonCard";
 
 const Home = () => {
     return (
@@ -10,6 +11,8 @@ const Home = () => {
             <div className="hover-card-wrapper">
                 <HoverCard/>
             </div>
+
+            <PokemonCard pokemonId="milotic" />
         </div>
     );
 }
