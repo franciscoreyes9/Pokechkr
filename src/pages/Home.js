@@ -1,6 +1,9 @@
 import HoverCard from "../components/HoverCard";
 import PokemonCard from "../components/pokemons/PokemonCard";
 import '../styles/components/_buttons.scss';
+import PokemonCarousel from "../components/PokemonCarousel";
+import arrowIcon from "../assets/images/ui/button-arrow.png";
+import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
@@ -20,18 +23,19 @@ const Home = () => {
                     </div>
                 </div>
                 <hr/>
-                <h3>Select between all Emerald pokemons and build your squad from scratch!</h3>
-                <div className="row">
-                    <PokemonCard pokemonId={"treecko"} simple />
-                    <PokemonCard pokemonId={"grovyle"} simple />
-                    <PokemonCard pokemonId={"sceptile"} simple />
-                    <PokemonCard pokemonId={"torchic"} simple />
-                    <PokemonCard pokemonId={"combusken"} simple />
-                    <PokemonCard pokemonId={"blaziken"} simple />
-                    <PokemonCard pokemonId={"mudkip"} simple />
-                    <PokemonCard pokemonId={"marshtomp"} simple />
-                    <PokemonCard pokemonId={"swampert"} simple />
-                </div>
+                <h2>Create your own Team!</h2>
+                <p>
+                    Pokéchkr Team Builder is a tool created for trainers who want to build their ideal team to tackle
+                    the challenges of the Hoenn region. Here, you can select your favorite Pokémon, equip them with
+                    the most powerful moves, and get ready to face the Gym Leaders. Every team is unique and built
+                    according to your gameplay strategies.
+                </p>
+                <PokemonCarousel />
+                <PokemonCarousel />
+                <button className="btn btn-arrow"><Link to="team-builder">
+                    Jump into Pokéchkr Team Builder
+                    <img src={arrowIcon}/>
+                </Link></button>
             </div>
             <div className="second-home-container">
                 <div className="tagContainer">

@@ -1,0 +1,22 @@
+.carousel-container {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-track {
+  position: relative;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.carousel-content {
+  display: inline-flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.carousel-item {
+  display: inline-block;
+  width: 128px;
+  flex-shrink: 0;
+}

@@ -12,7 +12,7 @@ function HoverCard() {
             >
                 <div className="hover-card-content">
                     <h2>135 Pokémons <br></br>introduced</h2>
-                    <p>Iconic Pokémons like the legendaries Kyogre, Groudon, and Rayquaza. Check out Hoenn Pokédex!</p>
+                    <p>Iconic Pokémons like the legendaries Kyogre, Groudon, and Rayquaza.</p>
                 </div>
             </Tilt>
         </Link>
