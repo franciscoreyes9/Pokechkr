@@ -1,6 +1,6 @@
 // Color Palette
 $red-500: #E94F37;
-$blue-500: #0066FF;
+$blue-500: #053EFF;
 $yellow-500: #FFD200;
 $gray-900: #090C10;
 $gray-800: #2A2A2A;
@@ -30,6 +30,22 @@ $navbar-bg: $primary;
 $navbar-text: $white;
 $button-primary-bg: $secondary;
 $button-primary-text: $white;
+
+
+//dark-mode colors
+$primary-dark: $white;
+$secondary-dark: $red-500;
+$accent-dark: $blue-500;
+$warning-dark: $yellow-500;
+$success-dark: $blue-500;
+
+$text-primary-dark: $white;
+$text-secondary-dark: $gray-600;
+
+$background-dark: $gray-900;
+$background-alt-dark: #161B22;
+$background-black-dark: $gray-100;
+
 
 // Pokemon types
 $normal: #FFDCBB;

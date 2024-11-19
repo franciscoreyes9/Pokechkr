@@ -74,7 +74,9 @@ p {
 .row {
   width: 100%;
   display: flex;
+  align-content: center;
   flex-direction: row;
+  justify-content: center;
   gap: 1.5vw;
 }
 
@@ -103,4 +105,8 @@ p {
   align-items: center;
   justify-content: center;
   gap: 0.5vw;
+}
+
+.hero {
+  text-align: center;
 }

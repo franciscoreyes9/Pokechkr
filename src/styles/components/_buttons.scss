@@ -42,25 +42,33 @@
 
   // Secondary button variant
   &-secondary {
+    color: $accent;
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
     background: none;
     padding: 0 5px 0 0;
     position: relative;
-    color: $text-primary;
     display: inline-flex;
     align-items: center;
-    transition: 0.1s ease-in;
 
     img {
       margin-left: 3px;
-      width: 14px;
-      height: 14px;
+      margin-bottom: 2px;
+      width: 20px;
+      height: 20px;
     }
 
     &:hover {
-      opacity: 0.5;
+      opacity: 0.5; /* Adds hover effect */
+    }
+
+    /* Remove Link-specific styles */
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
     }
   }
 
