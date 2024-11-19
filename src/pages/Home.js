@@ -46,6 +46,7 @@ const Home = () => {
                 </div>
                 <h1>Check all your opponents</h1>
                 <GymLeader key={"roxanne"} gymLeaderData={"roxanne"} />
+                <GymLeader key={"brawly"} gymLeaderData={"brawly"} />
             </div>
         </div>
     );
