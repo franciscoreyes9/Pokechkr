@@ -1,8 +1,17 @@
+import logoBlack from '../assets/images/logo-black.png';
+import {NavLink} from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container">
                 <div className="footer__content">
+                    <div className="footer__section">
+                        <NavLink to="/" className="navbar__link">
+                            <img src={logoBlack} alt="LogoBlack"/>
+                        </NavLink>
+                    </div>
+
                     <div className="footer__section">
                         <h3>Navigation</h3>
                         <ul>

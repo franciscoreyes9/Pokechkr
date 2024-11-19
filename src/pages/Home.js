@@ -53,7 +53,7 @@ const Home = () => {
                     our system, you'll be able to monitor your progress, study the best strategies, and perfect
                     your trainer skills. Be prepared for the next showdown and prove that you're the strongest!
                 </p>
-                <GymLeader key={"drake"} gymLeaderData={"drake"}/>
+                <GymLeader key={"tate-liza"} gymLeaderData={"tate & liza"}/>
                 <div className="row">
                     <button className="btn btn-arrow"><Link to="gym-leaders">
                         Fight Gym Leaders
