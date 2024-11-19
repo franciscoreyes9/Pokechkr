@@ -45,11 +45,14 @@ const Home = () => {
                     <button className="btn btn-new">New</button>
                 </div>
                 <h1>Check all your opponents</h1>
-                <GymLeader key={"phoebe"} gymLeaderData={"phoebe"} />
-                <GymLeader key={"sidney"} gymLeaderData={"sidney"} />
-                <GymLeader key={"glacia"} gymLeaderData={"glacia"} />
-                <GymLeader key={"drake"} gymLeaderData={"drake"} />
-                <GymLeader key={"wallace"} gymLeaderData={"wallace"} />
+                <GymLeader key={"roxanne"} gymLeaderData={"roxanne"} />
+                <GymLeader key={"brawly"} gymLeaderData={"brawly"} />
+                <GymLeader key={"wattson"} gymLeaderData={"wattson"} />
+                <GymLeader key={"flannery"} gymLeaderData={"flannery"} />
+                <GymLeader key={"norman"} gymLeaderData={"norman"} />
+                <GymLeader key={"winona"} gymLeaderData={"winona"} />
+                <GymLeader key={"tate-liza"} gymLeaderData={"tate & liza"} />
+                <GymLeader key={"juan"} gymLeaderData={"juan"} />
             </div>
         </div>
     );

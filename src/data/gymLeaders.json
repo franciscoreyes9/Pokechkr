@@ -24,7 +24,7 @@
   {
     "name": "Wattson",
     "sprite": "/images/trainers/wattson.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/Dynamo_Badge.png",
     "bounty": "₽2,400",
     "pokemon": [
       { "name": "voltorb", "level": 20 },
@@ -36,7 +36,7 @@
   {
     "name": "Flannery",
     "sprite": "/images/trainers/flannery.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/Heat_Badge.png",
     "bounty": "₽2,900",
     "pokemon": [
       { "name": "numel", "level": 24 },
@@ -48,7 +48,7 @@
   {
     "name": "Norman",
     "sprite": "/images/trainers/norman.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/Balance_Badge.png",
     "bounty": "₽2,900",
     "pokemon": [
       { "name": "spinda", "level": 27 },
@@ -60,7 +60,7 @@
   {
     "name": "Winona",
     "sprite": "/images/trainers/winona.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/Feather_Badge.png",
     "bounty": "₽3,300",
     "pokemon": [
       { "name": "swablu", "level": 29 },
@@ -73,7 +73,7 @@
   {
     "name": "Tate & Liza",
     "sprite": "/images/trainers/tate-liza.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/Mind_Badge.png",
     "bounty": "₽8,400",
     "pokemon": [
       { "name": "claydol", "level": 41 },
@@ -85,7 +85,7 @@
   {
     "name": "Juan",
     "sprite": "/images/trainers/juan.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/Rain_Badge.png",
     "bounty": "₽4,600",
     "pokemon": [
       { "name": "luvdisc", "level": 41 },
