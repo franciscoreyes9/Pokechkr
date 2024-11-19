@@ -29,8 +29,136 @@
     "pokemon": [
       { "name": "voltorb", "level": 20 },
       { "name": "electrike", "level": 20 },
-      { "name": "magnemite", "level": 22 },
-      { "name": "manetric", "level": 24, "item": "sitrus-berry" }
+      { "name": "magneton", "level": 22 },
+      { "name": "manectric", "level": 24, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Flannery",
+    "sprite": "/images/trainers/flannery.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽2,900",
+    "pokemon": [
+      { "name": "numel", "level": 24 },
+      { "name": "slugma", "level": 24 },
+      { "name": "camerupt", "level": 26 },
+      { "name": "torkoal", "level": 29, "item": "white-herb" }
+    ]
+  },
+  {
+    "name": "Norman",
+    "sprite": "/images/trainers/norman.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽2,900",
+    "pokemon": [
+      { "name": "spinda", "level": 27 },
+      { "name": "vigoroth", "level": 27 },
+      { "name": "linoone", "level": 29 },
+      { "name": "slaking", "level": 31, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Winona",
+    "sprite": "/images/trainers/winona.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽3,300",
+    "pokemon": [
+      { "name": "swablu", "level": 29 },
+      { "name": "tropius", "level": 29 },
+      { "name": "pelipper", "level": 30 },
+      { "name": "skarmory", "level": 31 },
+      { "name": "altaria", "level": 33, "item": "oran-berry" }
+    ]
+  },
+  {
+    "name": "Tate & Liza",
+    "sprite": "/images/trainers/tate-liza.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽8,400",
+    "pokemon": [
+      { "name": "claydol", "level": 41 },
+      { "name": "xatu", "level": 41 },
+      { "name": "lunatone", "level": 42, "item": "sitrus-berry" },
+      { "name": "solrock", "level": 42, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Juan",
+    "sprite": "/images/trainers/juan.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽4,600",
+    "pokemon": [
+      { "name": "luvdisc", "level": 41 },
+      { "name": "whiscash", "level": 41 },
+      { "name": "sealeo", "level": 43 },
+      { "name": "crawdaunt", "level": 43 },
+      { "name": "kingdra", "level":  46, "item": "chesto-berry" }
+    ]
+  },
+  {
+    "name": "Sidney",
+    "sprite": "/images/trainers/sidney.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽4,600",
+    "pokemon": [
+      { "name": "mightyena", "level": 46 },
+      { "name": "shiftry", "level": 48 },
+      { "name": "cacturne", "level": 46 },
+      { "name": "crawdaunt", "level": 48 },
+      { "name": "absol", "level":  49, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Phoebe",
+    "sprite": "/images/trainers/phoebe.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽4,600",
+    "pokemon": [
+      { "name": "dusclops", "level": 48 },
+      { "name": "banette", "level": 49 },
+      { "name": "sableye", "level": 50 },
+      { "name": "banette", "level": 49 },
+      { "name": "dusclops", "level":  51, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Glacia",
+    "sprite": "/images/trainers/glacia.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽4,600",
+    "pokemon": [
+      { "name": "sealeo", "level": 50 },
+      { "name": "glalie", "level": 50 },
+      { "name": "sealeo", "level": 52 },
+      { "name": "glalie", "level": 52 },
+      { "name": "walrein", "level":  53, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Drake",
+    "sprite": "/images/trainers/drake.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽4,600",
+    "pokemon": [
+      { "name": "shelgon", "level": 52 },
+      { "name": "altaria", "level": 54 },
+      { "name": "kingdra", "level": 53 },
+      { "name": "flygon", "level": 53 },
+      { "name": "salamence", "level":  55, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Wallace",
+    "sprite": "/images/trainers/wallace.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽4,600",
+    "pokemon": [
+      { "name": "wailord", "level": 57 },
+      { "name": "tentacruel", "level": 55 },
+      { "name": "ludicolo", "level": 56 },
+      { "name": "whiscash", "level": 56 },
+      { "name": "gyarados", "level": 56 },
+      { "name": "milotic", "level":  58, "item": "sitrus-berry" }
     ]
   }
 ]
