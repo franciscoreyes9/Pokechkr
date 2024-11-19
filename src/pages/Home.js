@@ -1,9 +1,9 @@
 import HoverCard from "../components/HoverCard";
-import PokemonCard from "../components/pokemons/PokemonCard";
 import '../styles/components/_buttons.scss';
 import PokemonCarousel from "../components/PokemonCarousel";
 import arrowIcon from "../assets/images/ui/button-arrow.png";
 import {Link} from "react-router-dom";
+import GymLeader from "../components/GymLeader";
 
 const Home = () => {
     return (
@@ -30,8 +30,10 @@ const Home = () => {
                     the most powerful moves, and get ready to face the Gym Leaders. Every team is unique and built
                     according to your gameplay strategies.
                 </p>
+                <hr />
                 <PokemonCarousel />
                 <PokemonCarousel />
+                <hr />
                 <button className="btn btn-arrow"><Link to="team-builder">
                     Jump into Pokéchkr Team Builder
                     <img src={arrowIcon}/>
@@ -39,14 +41,11 @@ const Home = () => {
             </div>
             <div className="second-home-container">
                 <div className="tagContainer">
-                    <button className="btn btn-tag">Team Builder</button>
+                    <button className="btn btn-tag">Gym Leaders</button>
+                    <button className="btn btn-new">New</button>
                 </div>
                 <h1>Check all your opponents</h1>
-                <div className="hover-card-wrapper">
-                    <HoverCard/>
-                </div>
-
-                <PokemonCard pokemonId="1"/>
+                <GymLeader key={"roxanne"} gymLeaderData={"roxanne"} />
             </div>
         </div>
     );

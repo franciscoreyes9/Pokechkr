@@ -96,3 +96,11 @@ p {
   padding: 2vw;
   z-index: 1;
 }
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+}

@@ -8,7 +8,7 @@ function HoverCard() {
         <Link to="/pokedex" className="hover-card-link">
             <Tilt
                 className="hover-card tilt-card"
-                options={{ max: 2.5, scale: 1.004 }}
+                options={{ max: 6, scale: 1.004 }}
             >
                 <div className="hover-card-content">
                     <h2>135 Pokémons <br></br>introduced</h2>
