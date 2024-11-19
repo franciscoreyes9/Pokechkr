@@ -3,7 +3,7 @@
     "name": "Roxanne",
     "sprite": "/images/trainers/roxanne.png",
     "badge": "/images/icons/Stone_Badge.png",
-    "bounty": "₽2,800",
+    "bounty": "₽1,500",
     "pokemon": [
       { "name": "geodude", "level": 12 },
       { "name": "geodude", "level": 12 },
@@ -14,11 +14,23 @@
     "name": "Brawly",
     "sprite": "/images/trainers/brawly.png",
     "badge": "/images/icons/Knuckle_Badge.png",
-    "bounty": "₽3,200",
+    "bounty": "₽1,900 ",
     "pokemon": [
       { "name": "machop", "level": 16 },
       { "name": "meditite", "level": 16 },
       { "name": "makuhita", "level": 19, "item": "sitrus-berry" }
+    ]
+  },
+  {
+    "name": "Wattson",
+    "sprite": "/images/trainers/wattson.png",
+    "badge": "/images/icons/Knuckle_Badge.png",
+    "bounty": "₽2,400",
+    "pokemon": [
+      { "name": "voltorb", "level": 20 },
+      { "name": "electrike", "level": 20 },
+      { "name": "magnemite", "level": 22 },
+      { "name": "manetric", "level": 24, "item": "sitrus-berry" }
     ]
   }
 ]
