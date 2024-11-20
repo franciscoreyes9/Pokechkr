@@ -64,6 +64,7 @@
 .pokemon-card-gym {
   border-top: 1px solid #eee;
   height: 84px;
+  cursor: pointer;
 
   &:hover {
     background-color: $background-alt;
@@ -126,7 +127,7 @@
   }
 
   &__number {
-    width: 90px;
+    width: 70px;
     font-family: monospace;
     font-weight: 600;
     font-size: 1rem;
@@ -158,6 +159,8 @@
     padding: 0.25rem 0.75rem;
     border-radius: 999px;
     font-size: 0.75rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
     color: white;
     text-transform: capitalize;
     font-weight: 600;
