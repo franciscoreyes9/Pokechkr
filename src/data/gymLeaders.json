@@ -98,7 +98,7 @@
   {
     "name": "Sidney",
     "sprite": "/images/trainers/sidney.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/No_Badge.webp",
     "bounty": "₽4,900",
     "pokemon": [
       { "name": "mightyena", "level": 46 },
@@ -111,7 +111,7 @@
   {
     "name": "Phoebe",
     "sprite": "/images/trainers/phoebe.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/No_Badge.webp",
     "bounty": "₽5,100",
     "pokemon": [
       { "name": "dusclops", "level": 48 },
@@ -124,7 +124,7 @@
   {
     "name": "Glacia",
     "sprite": "/images/trainers/glacia.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/No_Badge.webp",
     "bounty": "₽5,300",
     "pokemon": [
       { "name": "sealeo", "level": 50 },
@@ -137,7 +137,7 @@
   {
     "name": "Drake",
     "sprite": "/images/trainers/drake.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/No_Badge.webp",
     "bounty": "₽5,500",
     "pokemon": [
       { "name": "shelgon", "level": 52 },
@@ -150,7 +150,7 @@
   {
     "name": "Wallace",
     "sprite": "/images/trainers/wallace.png",
-    "badge": "/images/icons/Knuckle_Badge.png",
+    "badge": "/images/icons/No_Badge.webp",
     "bounty": "₽11,600",
     "pokemon": [
       { "name": "wailord", "level": 57 },

@@ -4,10 +4,11 @@
   background: white;
   border-radius: 20px;
   border: rgba($gray-900, 0.075) 1px solid;
-  width: 700px;
+  width: 650px;
   max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
+  height: 100%;
 
   &__header {
     display: flex;
@@ -127,7 +128,7 @@
   }
 
   &__number {
-    width: 70px;
+    width: 50px;
     font-family: monospace;
     font-weight: 600;
     font-size: 1rem;
