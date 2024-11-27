@@ -43,7 +43,7 @@ const PokemonCarousel = () => {
         if (!carousel || pokemonIds.length === 0) return;
 
         let animationId;
-        const scrollSpeed = 1.2;
+        const scrollSpeed = 1;
 
         const autoScroll = () => {
             if (isHovered) return;
@@ -59,7 +59,7 @@ const PokemonCarousel = () => {
 
         const timeoutId = setTimeout(() => {
             animationId = requestAnimationFrame(autoScroll);
-        }, 0);
+        }, 250);
 
         return () => {
             clearTimeout(timeoutId);
