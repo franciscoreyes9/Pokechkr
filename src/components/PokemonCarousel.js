@@ -1,69 +1,97 @@
-import React, {useState, useEffect } from 'react';
-import { animated, useSpring } from '@react-spring/web';
+import React, { useState, useEffect, useRef } from 'react';
 import PokemonCard from './pokemons/PokemonCard';
 import '../styles/components/_pokemoncarousel.scss';
 
 const PokemonCarousel = () => {
-    const [pokemons, setPokemons] = useState([]);
-    const [isPaused, setIsPaused] = useState(false);
-    const TOTAL_POKEMON = 160;
-    const CARD_WIDTH = 128;
-    const CARD_MARGIN = 8;
+    const [pokemonIds, setPokemonIds] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const [isHovered, setIsHovered] = useState(false);
+    const carouselRef = useRef(null);
+
+    const TOTAL_POKEMON = 1010;
+    const POKEMON_BATCH_SIZE = 30;
 
     useEffect(() => {
-        const pokemonIds = Array.from({ length: TOTAL_POKEMON }, (_, i) => i + 1);
-        const extendedIds = [...pokemonIds, ...pokemonIds.slice(0, 10)];
-        setPokemons(extendedIds);
+        const generatePokemonIds = () => {
+            const newIds = [];
+            while (newIds.length < POKEMON_BATCH_SIZE) {
+                const randomId = Math.floor(Math.random() * TOTAL_POKEMON) + 1;
+                if (!pokemonIds.includes(randomId) && !newIds.includes(randomId)) {
+                    newIds.push(randomId);
+                }
+            }
+            return newIds;
+        };
+
+        try {
+            setLoading(true);
+            const newBatch = generatePokemonIds();
+
+            setPokemonIds((prevIds) =>
+                prevIds.length === 0 ? newBatch : [...prevIds, ...newBatch]
+            );
+        } catch (err) {
+            setError(err.message);
+        } finally {
+            setLoading(false);
+        }
     }, []);
 
-    const [{ x }, api] = useSpring(() => ({
-        from: { x: Math.floor(Math.random() * CARD_WIDTH) * -30},
-        to: { x: -((TOTAL_POKEMON) * (CARD_WIDTH + CARD_MARGIN * 2)) },
-        loop: true,
-        config: { duration: 600000 },
-        immediate: isPaused,
-    }));
-
     useEffect(() => {
-        if (isPaused) {
-            api.pause();
-        } else {
-            api.resume();
-        }
-    }, [isPaused, api]);
+        const carousel = carouselRef.current;
+        if (!carousel || pokemonIds.length === 0) return;
 
-    const handleMouseEnter = () => {
-        setIsPaused(true);
-    };
+        let animationId;
+        const scrollSpeed = 1.2;
 
-    const handleMouseLeave = () => {
-        setIsPaused(false);
-    };
+        const autoScroll = () => {
+            if (isHovered) return;
+
+            if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth) {
+                carousel.scrollLeft = 0;
+            } else {
+                carousel.scrollLeft += scrollSpeed;
+            }
+
+            animationId = requestAnimationFrame(autoScroll);
+        };
+
+        const timeoutId = setTimeout(() => {
+            animationId = requestAnimationFrame(autoScroll);
+        }, 0);
+
+        return () => {
+            clearTimeout(timeoutId);
+            cancelAnimationFrame(animationId);
+        };
+    }, [pokemonIds, isHovered]);
+
+    if (error) {
+        return <div className="pokemon-carousel__error">Error: {error}</div>;
+    }
+
+    const displayPokemonIds = [...pokemonIds, ...pokemonIds];
 
     return (
-        <div className="carousel-container">
-            <animated.div
-                className="carousel-track"
-                style={{
-                    transform: x.to(value => `translateX(${value}px)`)
-                }}
-            >
-                <div className="carousel-content">
-                    {pokemons.map((id, index) => (
-                        <div
-                            key={`${id}-${index}`}
-                            className="carousel-item"
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            <PokemonCard pokemonId={id} simple={true} />
-                        </div>
-                    ))}
-                </div>
-            </animated.div>
+        <div ref={carouselRef} className="pokemon-carousel">
+            <div className="pokemon-carousel__track" style={{ display: 'flex' }}>
+                {displayPokemonIds.map((pokemonId, index) => (
+                    <div
+                        key={`pokemon-${index}-${pokemonId}`}
+                        className="pokemon-carousel__item"
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}
+                    >
+                        <PokemonCard pokemonId={pokemonId} simple={true} />
+                    </div>
+                ))}
+                {loading && (
+                    <div className="pokemon-carousel__loading">Loading Pokemon...</div>
+                )}
+            </div>
         </div>
     );
 };
-
 
 export default PokemonCarousel;
