@@ -59,7 +59,7 @@ const PokemonCarousel = () => {
 
         const timeoutId = setTimeout(() => {
             animationId = requestAnimationFrame(autoScroll);
-        }, 250);
+        }, 0);
 
         return () => {
             clearTimeout(timeoutId);
