@@ -9,12 +9,33 @@ $white: #FFFFFF;
 $gray-100: #F8F8F8;
 $mint: #80ed99;
 
+// Pokemon types
+$normal: #FFDCBB;
+$fire: $red-500;
+$fighting: #B10F2E;
+$dark: #160F29;
+$poison: #A177FF;
+$ghost: #424874;
+$dragon: #6610F2;
+$fairy: #E34A6F;
+$psychic: #FF99C9;
+$rock: #E7DFC6;
+$ground: #D5BDAF;
+$steel: #DBDBDB;
+$grass: #3FB950;
+$bug: #92977E;
+$electric: $yellow-500;
+$water: $blue-500;
+$flying: #1E96FC;
+$ice: #02CEFF;
+
 // Semantic Colors
 $primary: $gray-900;
 $secondary: $red-500;
 $accent: $blue-500;
 $warning: $yellow-500;
 $success: $blue-500;
+$new-accent: #{$fairy};
 
 // Text Colors
 $text-primary: $gray-900;
@@ -46,23 +67,28 @@ $background-dark: $gray-900;
 $background-alt-dark: #161B22;
 $background-black-dark: $gray-100;
 
+$new-accent-dark: #{$mint};
 
-// Pokemon types
-$normal: #FFDCBB;
-$fire: $red-500;
-$fighting: #B10F2E;
-$dark: #160F29;
-$poison: #A177FF;
-$ghost: #424874;
-$dragon: #6610F2;
-$fairy: #E34A6F;
-$psychic: #FF99C9;
-$rock: #E7DFC6;
-$ground: #D5BDAF;
-$steel: #DBDBDB;
-$grass: #3FB950;
-$bug: #92977E;
-$electric: $yellow-500;
-$water: $blue-500;
-$flying: #1E96FC;
-$ice: #02CEFF;
+
+:root {
+  // Light mode color variables
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --accent: #{$accent};
+  --text-primary: #{$text-primary};
+  --background: #{$background};
+  --background-alt: #{$background-alt};
+  --background-black: #{$background-black};
+  --new-accent: #{$new-accent};
+}
+
+body.dark-mode {
+  --primary: #{$primary-dark};
+  --secondary: #{$secondary-dark};
+  --accent: #{$accent-dark};
+  --text-primary: #{$text-primary-dark};
+  --background: #{$background-dark};
+  --background-alt: #{$background-alt-dark};
+  --background-black: #{$background-black-dark};
+  --new-accent: #{$new-accent-dark};
+}

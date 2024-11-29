@@ -18,7 +18,7 @@
 
   &:hover {
     transform: scale(1.05) rotate3d(1, 1, 0, 5deg);
-    box-shadow: 0px 0px 37px 15px rgba($gray-900, 0.15);
+    box-shadow: 0px 0px 37px 15px color-mix(in srgb, var(--primary, #{$primary}) 5%, transparent);
   }
 
   .hover-card-content {
@@ -30,7 +30,7 @@
     height: 100%;
     padding: 2vw;
     text-align: left;
-    color: #fff;
+    color: #fff !important;
 
     h2 {
       font-family: 'Mona Sans', 'Apple Color Emoji', sans-serif;
@@ -52,4 +52,5 @@
     z-index: 0;
     transition: background 0.5s ease-in-out;
   }
+
 }

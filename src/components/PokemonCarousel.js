@@ -75,7 +75,7 @@ const PokemonCarousel = () => {
 
     return (
         <div ref={carouselRef} className="pokemon-carousel">
-            <div className="pokemon-carousel__track" style={{ display: 'flex' }}>
+            <div className="pokemon-carousel__track">
                 {displayPokemonIds.map((pokemonId, index) => (
                     <div
                         key={`pokemon-${index}-${pokemonId}`}

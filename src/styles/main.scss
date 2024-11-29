@@ -11,8 +11,8 @@
 body {
   font-family: Inter, sans-serif;
   min-height: 100vh;
-  background-color: $background;
-  color: $text-primary;
+  background-color: var(--background);
+  color: var(--text-primary);
   overflow-y: visible;
   overflow-x: hidden;
 }
@@ -21,13 +21,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: $background;
+  background-color: var(--background);
 }
 
 main {
   flex: 1;
-  background-color: $background;
-  color: $text-primary;
+  background-color: var(--background);
+  color: var(--text-primary);
   gap: 1.5vw;
 }
 
@@ -63,14 +63,15 @@ p {
   flex-direction: column;
   gap: 1.5vw;
   align-items: center;
-  padding: 80px 20%;;
-  box-shadow: rgba($gray-900, 0.075) 0 1px;
+  padding: 80px 20%;
+  box-shadow: rgba(var(--primary), 0.075) 0 1px;
   overflow-y: visible;
   overflow-x: hidden;
+  background-color: var(--background);
 }
 
 .second-home-container {
-  background-color: $background-alt;
+  background-color: var(--background-alt, #{$background-alt});
   margin-top: 1px;
 }
 
@@ -90,8 +91,8 @@ p {
 .black-card {
   width: 300px;
   min-height: 200px;
-  background-color: $background-black;
-  color: $white;
+  background-color: var(--background-black, #{$background-black});
+  color: var(--background, #{$background});
   margin-left: auto;
   text-align: end;
   border-radius: 25px;
