@@ -10,6 +10,7 @@ const GymLeaders = () => {
             <div className="first-home-container">
                 <div className="tagContainer">
                     <button className="btn btn-tag">Gym Leaders</button>
+                    <button className="btn btn-new">New</button>
                 </div>
                 <h1>Gym Leaders</h1>
                 <p className="hero">

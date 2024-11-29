@@ -1,53 +1,62 @@
+@import '../variables';
+
 .footer {
-  background-color: $gray-100;
-  color: $text-primary;
-  padding: 20px 0;
+  background-color: var(--background-alt);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
   margin-top: 1px;
 
   &__container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100%;
+    text-align: center;
   }
 
-  &__content {
+  &__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    gap: 4rem;
+    align-items: center;
+    gap: 0.8vw;
   }
 
-  &__section {
-    h3 {
-      color: $text-primary;
-      margin-bottom: 1rem;
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    padding: {
+      left: 0.5vw;
+      right: 0.5vw;
+    }
+    transition: 0.1s ease-in;
+    color: var(--text-primary);
+
+    &:hover {
+      color: var(--accent);
     }
 
-    ul {
-      list-style: none;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    a {
-      color: $text-primary;
-      text-decoration: none;
-      transition: color 0.3s ease;
-
-      &:hover {
-        color: $accent;
-      }
+    img {
+        display: block;
+        height: 1.2rem;
+        margin-bottom: 0.5vh;
     }
   }
 
   &__copyright {
     font-size: 12px;
     text-align: center;
-    margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid rgba($gray-900, 0.075);
+    padding-bottom: 1rem;
+    border-top: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent) 1px solid;
+    background-color: var(--background-alt);
     color: $text-secondary;
   }
 }
