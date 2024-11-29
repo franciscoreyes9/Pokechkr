@@ -1,9 +1,9 @@
 @import '../variables';
 
 .gym-leader {
-  background: white;
+  background: var(--background);
   border-radius: 20px;
-  border: rgba($gray-900, 0.075) 1px solid;
+  border: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent) 1px solid;
   width: 650px;
   max-width: 800px;
   margin: 0 auto;
@@ -63,12 +63,13 @@
 }
 
 .pokemon-card-gym {
-  border-top: 1px solid #eee;
+  border-top: var(--text-secondary) 1px solid;
   height: 84px;
   cursor: pointer;
+  border-top: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent) 1px solid;
 
   &:hover {
-    background-color: $background-alt;
+    background-color: var(--background-alt);
   }
 
   &__content {
@@ -156,37 +157,34 @@
 
   &__type {
     width: 70px;
-    height: 22px;
+    height: 23px;
     padding: 0.25rem 0.75rem;
     border-radius: 999px;
     font-size: 0.75rem;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0.3);
-    color: white;
     text-transform: capitalize;
     font-weight: 600;
     align-content: center;
     text-align: center;
     align-items: center;
 
-    &--normal { background-color: $normal; }
-    &--fire { background-color: $fire; }
-    &--water { background-color: $water; }
-    &--electric { background-color: $electric; }
-    &--grass { background-color: $grass; }
-    &--ice { background-color: $ice; }
-    &--fighting { background-color: $fighting; }
-    &--poison { background-color: $poison; }
-    &--ground { background-color: $ground; }
-    &--flying { background-color: $flying; }
-    &--psychic { background-color: $psychic; }
-    &--bug { background-color: $bug; }
-    &--rock { background-color: $rock; }
-    &--ghost { background-color: $ghost; }
-    &--dragon { background-color: $dragon; }
-    &--dark { background-color: $dark; }
-    &--steel { background-color: $steel; }
-    &--fairy { background-color: $fairy; }
+    &--normal { background-color: rgba($normal, 0.3); color: $normal; border: $normal 1px solid; }
+    &--fire { background-color: rgba($fire, 0.3); color: $fire; border: $fire 1px solid; }
+    &--water { background-color: rgba($water, 0.3); color: $water; border: $water 1px solid; }
+    &--electric { background-color: rgba($electric, 0.3); color: $electric; border: $electric 1px solid; }
+    &--grass { background-color: rgba($grass, 0.3); color: $grass; border: $grass 1px solid; }
+    &--ice { background-color: rgba($ice, 0.3); color: $ice; border: $ice 1px solid; }
+    &--fighting { background-color: rgba($fighting, 0.3); color: $fighting; border: $fighting 1px solid; }
+    &--poison { background-color: rgba($poison, 0.3); color: $poison; border: $poison 1px solid; }
+    &--ground { background-color: rgba($ground, 0.3); color: $ground; border: $ground 1px solid; }
+    &--flying { background-color: rgba($flying, 0.3); color: $flying; border: $flying 1px solid; }
+    &--psychic { background-color: rgba($psychic, 0.3); color: $psychic; border: $psychic 1px solid; }
+    &--bug { background-color: rgba($bug, 0.3); color: $bug; border: $bug 1px solid; }
+    &--rock { background-color: rgba($rock, 0.3); color: $rock; border: $rock 1px solid; }
+    &--ghost { background-color: rgba($ghost, 0.3); color: $ghost; border: $ghost 1px solid; }
+    &--dragon { background-color: rgba($dragon, 0.3); color: $dragon; border: $dragon 1px solid; }
+    &--dark { background-color: rgba($dark, 0.3); color: $dark; border: $dark 1px solid; }
+    &--steel { background-color: rgba($steel, 0.3); color: $steel; border: $steel 1px solid; }
+    &--fairy { background-color: rgba($fairy, 0.3); color: $fairy; border: $fairy 1px solid; }
   }
 }
 

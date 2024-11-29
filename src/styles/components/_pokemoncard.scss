@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     background: transparent;
-    border: rgba($gray-900, 0.075) 1px solid;
+    border: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent) 1px solid;
     box-shadow: none;
     border-radius: 15px;
     width: 100px;
@@ -22,7 +22,7 @@
     }
 
     &:hover {
-      background-color: $background-alt;
+      background-color: var(--background-alt);
       scale: 1.05;
 
       .pokemon-card__image {
