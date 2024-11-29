@@ -54,6 +54,13 @@
     color: var(--accent);
   }
 
+  .horizontalBar {
+    height: 25px;
+    width: 2px;
+    background-color: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent);
+    margin-right: 0.5vw;
+  }
+
   .dark-mode-toggle {
     background: none;
     border: none;

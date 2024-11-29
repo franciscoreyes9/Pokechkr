@@ -1,8 +1,14 @@
+import React from "react";
+
 const Legend = () => {
     return (
-        <div style={{backgroundColor: "red", padding: "20px"}}>
-            <h1>Legend</h1>
-            <p>This is a test</p>
+        <div className="Legend">
+            <div className="first-home-container">
+                <div className="tagContainer">
+                    <button className="btn btn-tag">Legend</button>
+                </div>
+                <h1>Pokéchkr System</h1>
+            </div>
         </div>
     );
 }

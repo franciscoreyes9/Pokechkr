@@ -35,6 +35,9 @@ const Navbar = () => {
                             Pokédex
                         </NavLink>
                     </li>
+                    <li>
+                        <div className="horizontalBar"></div>
+                    </li>
                     <li className="navbar__dark-mode-toggle">
                         <DarkModeToggle />
                     </li>
