@@ -1,13 +1,18 @@
 import HoverCard from "../components/HoverCard";
 import '../styles/components/_buttons.scss';
 import PokemonCarousel from "../components/PokemonCarousel";
-import arrowIcon from "../assets/images/ui/button-arrow.png";
+import lightArrow from "../assets/images/ui/button-arrow.png";
+import darkArrow from "../assets/images/ui/button-arrow-dark.png";
 import externalLink from "../assets/images/ui/external-link.png";
 import {Link} from "react-router-dom";
 import GymLeader from "../components/GymLeader";
-import React from "react";
+import React, {useContext} from "react";
+import { ThemeContext } from '../components/ThemeContext';
 
 const Home = () => {
+
+    const { isDarkMode  } = useContext(ThemeContext);
+
     return (
         <div className="Home">
             <div className="first-home-container">
@@ -38,7 +43,7 @@ const Home = () => {
                 <hr/>
                 <button className="btn btn-arrow"><Link to="team-builder">
                     Jump into Pokéchkr Team Builder
-                    <img src={arrowIcon}/>
+                    <img src={isDarkMode ? darkArrow : lightArrow} alt="Arrow"/>
                 </Link></button>
             </div>
             <div className="second-home-container">
@@ -57,7 +62,7 @@ const Home = () => {
                 <div className="row">
                     <button className="btn btn-arrow"><Link to="gym-leaders">
                         Fight Gym Leaders
-                        <img src={arrowIcon}/>
+                        <img src={isDarkMode ? darkArrow : lightArrow} alt="Arrow"/>
                     </Link></button>
                     <button className="btn btn-secondary"><Link to="team-builder">
                         Check our News
@@ -79,7 +84,7 @@ const Home = () => {
                 <div className="row">
                     <button className="btn btn-arrow"><Link to="legend">
                         Dive into our Legend
-                        <img src={arrowIcon}/>
+                        <img src={isDarkMode ? darkArrow : lightArrow} alt="Arrow"/>
                     </Link></button>
                     <button className="btn btn-secondary"><Link to="team-builder">
                         Github

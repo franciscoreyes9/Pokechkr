@@ -157,7 +157,7 @@
 
   &__type {
     width: 73px;
-    height: 25px;
+    height: 24px;
     padding: 0.25rem 0.75rem;
     border-radius: 999px;
     font-size: 0.75rem;
@@ -168,24 +168,24 @@
     align-items: center;
     color: white;
 
-    &--normal { background-color: rgba($normal, 0.4); border: $normal 2px solid; color: $normal; }
-    &--fire { background-color: rgba($fire, 0.4); border: $fire 2px solid; color: $fire; }
-    &--water { background-color: rgba($water, 0.4); border: $water 2px solid; color: $water; }
-    &--electric { background-color: rgba($electric, 0.4); border: $electric 2px solid; color: $electric; }
-    &--grass { background-color: rgba($grass, 0.4); border: $grass 2px solid; color: $grass; }
-    &--ice { background-color: rgba($ice, 0.4); border: $ice 2px solid; color: $ice; }
-    &--fighting { background-color: rgba($fighting, 0.4); border: $fighting 2px solid; color: $fighting; }
-    &--poison { background-color: rgba($poison, 0.4); border: $poison 2px solid; color: $poison; }
-    &--ground { background-color: rgba($ground, 0.4); border: $ground 2px solid; color: $ground; }
-    &--flying { background-color: rgba($flying, 0.4); border: $flying 2px solid; color: $flying; }
-    &--psychic { background-color: rgba($psychic, 0.4); border: $psychic 2px solid; color: $psychic; }
-    &--bug { background-color: rgba($bug, 0.4); border: $bug 2px solid; color: $bug; }
-    &--rock { background-color: rgba($rock, 0.4); border: $rock 2px solid; color: $rock; }
-    &--ghost { background-color: rgba($ghost, 0.4); border: $ghost 2px solid; color: $ghost; }
-    &--dragon { background-color: rgba($dragon, 0.4); border: $dragon 2px solid; color: $dragon; }
-    &--dark { background-color: rgba($dark, 0.4); border: $dark 2px solid; color: $dark; }
-    &--steel { background-color: rgba($steel, 0.4); border: $steel 2px solid; color: $steel; }
-    &--fairy { background-color: rgba($fairy, 0.4); border: $fairy 2px solid; color: $fairy; }
+    &--normal { background-color: $normal; }
+    &--fire { background-color: $fire; }
+    &--water { background-color: $water; }
+    &--electric { background-color: $electric; }
+    &--grass { background-color: $grass; }
+    &--ice { background-color: $ice; }
+    &--fighting { background-color: $fighting; }
+    &--poison { background-color: $poison; }
+    &--ground { background-color: $ground; }
+    &--flying { background-color: $flying; }
+    &--psychic { background-color: $psychic; }
+    &--bug { background-color: $bug; }
+    &--rock { background-color: $rock; }
+    &--ghost { background-color: $ghost; }
+    &--dragon { background-color: $dragon; }
+    &--dark { background-color: $dark; }
+    &--steel { background-color: $steel; }
+    &--fairy { background-color: $fairy; }
   }
 }
 

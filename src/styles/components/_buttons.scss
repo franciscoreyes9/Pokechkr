@@ -13,12 +13,12 @@
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   &-tag {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     background: none;
     border: 1px solid rgba(192, 192, 192, 0.75);
     position: relative;
-    padding: 6px 12px;
+    padding: 4px 10px;
     border-radius: 30px;
     cursor: default;
     color: $gray-600;
@@ -28,12 +28,12 @@
   }
 
   &-new {
-    font-size: 0.8rem;
-    font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 600;
     border: none;
     position: relative;
-    padding: 4px 8px;
-    border-radius: 8px;
+    padding: 2px 8px;
+    border-radius: 6px;
     cursor: default;
     background-color: color-mix(in srgb, var(--new-accent, #{$new-accent}) 30%, transparent);
     color: var(--new-accent, #{$new-accent});
