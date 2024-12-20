@@ -20,41 +20,47 @@ const Footer = () => {
                 </NavLink>
 
                 <ul className="footer__nav">
-                    <li>
-                        <NavLink to="/team-builder" className="footer__link">
-                            Team Builder
-                        </NavLink>
-                    </li>
-                    <li className="navbar__gymleaders">
-                        <NavLink to="/gym-leaders" className="footer__link">
-                            Gym Leaders
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/legend" className="footer__link">
-                            Legend
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/pokedex" className="footer__link">
-                            Pokédex
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/#" className="footer__link">
-                            API Documentation
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/#" className="footer__link">
-                            Contact
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/#" className="footer__link">
-                            Github
-                        </NavLink>
-                    </li>
+                    <div className="footer__nav__span">
+                        <li className="footer__nav__title">Navigation</li>
+                        <li>
+                            <NavLink to="/team-builder" className="footer__link">
+                                Team Builder
+                            </NavLink>
+                        </li>
+                        <li className="navbar__gymleaders">
+                            <NavLink to="/gym-leaders" className="footer__link">
+                                Gym Leaders
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/legend" className="footer__link">
+                                Legend
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/pokedex" className="footer__link">
+                                Pokédex
+                            </NavLink>
+                        </li>
+                    </div>
+                    <div className="footer__nav__span">
+                        <li className="footer__nav__title">External links</li>
+                        <li>
+                            <NavLink to="/#" className="footer__link">
+                                API Documentation
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/#" className="footer__link">
+                                Contact
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/#" className="footer__link">
+                                Github
+                            </NavLink>
+                        </li>
+                    </div>
                 </ul>
             </div>
             <div className="footer__copyright">

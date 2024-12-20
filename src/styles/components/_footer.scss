@@ -5,36 +5,46 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 60px;
   margin-top: 1px;
 
   &__container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    align-items: flex-start;
+    padding: 1.5vw 20%;
     height: 100%;
     text-align: center;
+    gap: 75px;
   }
 
   &__nav {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 0.8vw;
+    align-items: flex-start;
+    gap: 100px;
+
+    &__span {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    &__title {
+      text-align: left;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding-bottom: 0.5vw;
+    }
   }
 
   &__link {
     display: flex;
-    align-items: center;
     text-decoration: none;
     font-weight: 500;
+    text-align: left;
     padding: {
-      left: 0.5vw;
-      right: 0.5vw;
+      bottom: 0.2vw;
+      top: 0.2vw;
     }
     transition: 0.1s ease-in;
     color: var(--text-primary);
