@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { getPokemon, getPokemonSpecies } from '../../services/pokeApi';
 import "../../styles/components/_pokemoncard.scss"
 
-const PokemonCard = ({ pokemonId, simple, simplePokedex }) => {
+const PokemonCard = ({ pokemonId, simple }) => {
     const [pokemon, setPokemon] = useState(null);
     const [species, setSpecies] = useState(null);
     const [loading, setLoading] = useState(true);

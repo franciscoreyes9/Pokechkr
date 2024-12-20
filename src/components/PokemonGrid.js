@@ -54,7 +54,7 @@ const PokemonGrid = () => {
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
             </div>
-            <div className="pokemon-grid">
+            <div className="pokemon-grid-pokedex">
                 {filteredPokemon.map((pokemon) => (
                     <Link key={pokemon.id} to={`/pokemon/${pokemon.id}`}>
                         <div className="pokemon-card pokemon-card--simple--pokedex">
