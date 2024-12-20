@@ -10,7 +10,7 @@ const PokemonGrid = () => {
     useEffect(() => {
         const fetchPokemons = async () => {
             try {
-                const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=494');
+                const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=1025');
                 const data = await response.json();
 
                 const pokemonDetails = await Promise.all(

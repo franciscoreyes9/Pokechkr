@@ -21,7 +21,6 @@
   padding: 1.2rem;
   border: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent) 1px solid;
   border-radius: 20px;
-  cursor: pointer;
 
   &:hover {
     background-color: var(--background-alt);
@@ -29,7 +28,7 @@
 
   &:focus {
     outline: none;
-    border: color-mix(in srgb, var(--text-secondary) 7%, transparent) 1px solid;
+    border: color-mix(in srgb, var(--primary) 10%, transparent) 1px solid;
     background-color: var(--background-alt);
   }
 }
