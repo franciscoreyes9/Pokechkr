@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { getPokemon, getPokemonSpecies } from '../../services/pokeApi';
 import "../../styles/components/_pokemoncard.scss"
 
@@ -54,13 +55,15 @@ const PokemonCard = ({ pokemonId, simple }) => {
 
     if (simple) {
         return (
-            <div className="pokemon-card pokemon-card--simple">
-                <img
-                    src={pokemon.sprites.front_default}
-                    alt={pokemon.name}
-                    className="pokemon-card__image"
-                />
-            </div>
+            <Link to={`/pokemon/${pokemonId}`}>
+                <div className="pokemon-card pokemon-card--simple">
+                    <img
+                        src={pokemon.sprites.front_default}
+                        alt={pokemon.name}
+                        className="pokemon-card__image"
+                    />
+                </div>
+            </Link>
         );
     }
 

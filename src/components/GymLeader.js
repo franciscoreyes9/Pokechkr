@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { getPokemon } from '../services/pokeApi';
 import '../styles/components/_gymleader.scss';
 import gymLeaders from '../data/gymLeaders.json';
@@ -77,46 +78,48 @@ const GymLeader = ({ gymLeaderData }) => {
                 ) : (
                     <div className="pokemon-grid">
                         {pokemonData.map((pokemon) => (
-                            <div key={pokemon.name} className="pokemon-card-gym">
-                                <div className="pokemon-card-gym__content">
-                                    <div className="pokemon-card-gym__sprite-container">
-                                        <img
-                                            src={pokemon.sprites.front_default}
-                                            alt={pokemon.name}
-                                            className="pokemon-card-gym__sprite"
-                                        />
-                                    </div>
-                                    <div className="pokemon-card-gym__info">
-                                        <h4 className="pokemon-card-gym__name">{pokemon.name}</h4>
-                                        <p className="pokemon-card-gym__level">Lvl. {pokemon.level}</p>
-                                        <p className="pokemon-card-gym__number">#{pokemon.emeraldNumber}</p>
-                                        {pokemon.itemSprite && (
-                                            <div className="pokemon-card-gym__item">
-                                                <img
-                                                    src={pokemon.itemSprite}
-                                                    alt={pokemon.item.replace('-', ' ')}
-                                                    className="pokemon-card-gym__item-sprite"
-                                                />
-                                                <span className="pokemon-card-gym__item-name">
-                          {pokemon.item.split('-').map((word) =>
-                              word.charAt(0).toUpperCase() + word.slice(1)
-                          ).join(' ')}
+                            <Link to={`/pokemon/${pokemon.emeraldNumber}`} key={pokemon.name}>
+                                <div className="pokemon-card-gym">
+                                    <div className="pokemon-card-gym__content">
+                                        <div className="pokemon-card-gym__sprite-container">
+                                            <img
+                                                src={pokemon.sprites.front_default}
+                                                alt={pokemon.name}
+                                                className="pokemon-card-gym__sprite"
+                                            />
+                                        </div>
+                                        <div className="pokemon-card-gym__info">
+                                            <h4 className="pokemon-card-gym__name">{pokemon.name}</h4>
+                                            <p className="pokemon-card-gym__level">Lvl. {pokemon.level}</p>
+                                            <p className="pokemon-card-gym__number">#{pokemon.emeraldNumber}</p>
+                                            {pokemon.itemSprite && (
+                                                <div className="pokemon-card-gym__item">
+                                                    <img
+                                                        src={pokemon.itemSprite}
+                                                        alt={pokemon.item.replace('-', ' ')}
+                                                        className="pokemon-card-gym__item-sprite"
+                                                    />
+                                                    <span className="pokemon-card-gym__item-name">
+                                {pokemon.item.split('-').map((word) =>
+                                    word.charAt(0).toUpperCase() + word.slice(1)
+                                ).join(' ')}
+                            </span>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="pokemon-card-gym__types">
+                                            {pokemon.types.map((type) => (
+                                                <span
+                                                    key={type}
+                                                    className={`pokemon-card-gym__type pokemon-card-gym__type--${type.toLowerCase()}`}
+                                                >
+                            {type}
                         </span>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="pokemon-card-gym__types">
-                                        {pokemon.types.map((type) => (
-                                            <span
-                                                key={type}
-                                                className={`pokemon-card-gym__type pokemon-card-gym__type--${type.toLowerCase()}`}
-                                            >
-                          {type}
-                        </span>
-                                        ))}
+                                            ))}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                 )}

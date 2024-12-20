@@ -46,13 +46,6 @@ $background: $white;
 $background-alt: $gray-100;
 $background-black: $gray-900;
 
-// Component-specific colors
-$navbar-bg: $primary;
-$navbar-text: $white;
-$button-primary-bg: $secondary;
-$button-primary-text: $white;
-
-
 //dark-mode colors
 $primary-dark: $white;
 $secondary-dark: $red-500;
@@ -71,11 +64,11 @@ $new-accent-dark: #{$mint};
 
 
 :root {
-  // Light mode color variables
   --primary: #{$primary};
   --secondary: #{$secondary};
   --accent: #{$accent};
   --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
   --background: #{$background};
   --background-alt: #{$background-alt};
   --background-black: #{$background-black};
@@ -87,6 +80,7 @@ body.dark-mode {
   --secondary: #{$secondary-dark};
   --accent: #{$accent-dark};
   --text-primary: #{$text-primary-dark};
+  --text-secondary: #{$text-secondary};
   --background: #{$background-dark};
   --background-alt: #{$background-alt-dark};
   --background-black: #{$background-black-dark};
