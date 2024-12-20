@@ -60,7 +60,6 @@ p {
   font-size: 20px;
   line-height: 28px;
   margin: 0;
-  text-align: justify;
 }
 
 a {
@@ -113,6 +112,10 @@ a {
   justify-content: space-between;
   padding: 2vw;
   z-index: 1;
+
+  p {
+    text-align: end !important;
+  }
 }
 
 .tagContainer {
@@ -124,5 +127,5 @@ a {
 }
 
 .hero {
-  text-align: center;
+  text-align: center !important;
 }

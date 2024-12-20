@@ -4,6 +4,7 @@
   &--simple {
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: transparent;
@@ -27,6 +28,46 @@
 
       .pokemon-card__image {
         opacity: 1;
+      }
+    }
+
+    &--pokedex {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      border: color-mix(in srgb, var(--background-black, #{$background-black}) 7%, transparent) 1px solid;
+      box-shadow: none;
+      border-radius: 15px;
+      width: 150px;
+      height: 150px;
+      cursor: pointer;
+      transition: 0.05s ease-in;
+      font-family: monospace;
+      font-weight: 600;
+      font-size: 0.9rem;
+
+      p {
+        font-size: 1rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+      }
+
+      .pokemon-card__image {
+        opacity: 0.7;
+        width: 80px;
+        height: auto;
+      }
+
+      &:hover {
+        background-color: var(--background-alt);
+        scale: 1.05;
+
+        .pokemon-card__image {
+          opacity: 1;
+        }
       }
     }
   }
