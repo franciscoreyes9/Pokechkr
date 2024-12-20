@@ -3,6 +3,7 @@ import "../styles/gymleaders.scss";
 import GymLeader from "../components/GymLeader";
 import {Link} from "react-router-dom";
 import arrowIcon from "../assets/images/ui/button-arrow.png";
+import ArrowButton from "../components/ArrowButton";
 
 const GymLeaders = () => {
     return (
@@ -66,10 +67,10 @@ const GymLeaders = () => {
                 <h2>League Champion</h2>
                 <GymLeader key={"wallace"} gymLeaderData={"wallace"}/>
                 <hr/>
-                <button className="btn btn-arrow"><Link to="/team-builder">
-                    Navigate to Pokéchkr Team Builder
-                    <img src={arrowIcon}/>
-                </Link></button>
+                <ArrowButton
+                    text="Navigate to Pokéchkr Team Builder"
+                    to="team-builder"
+                />
             </div>
         </div>
     );

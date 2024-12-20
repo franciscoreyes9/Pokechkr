@@ -8,6 +8,7 @@ import {Link} from "react-router-dom";
 import GymLeader from "../components/GymLeader";
 import React, {useContext} from "react";
 import { ThemeContext } from '../components/ThemeContext';
+import ArrowButton from "../components/ArrowButton";
 
 const Home = () => {
 
@@ -41,10 +42,10 @@ const Home = () => {
                 <PokemonCarousel/>
                 <PokemonCarousel/>
                 <hr/>
-                <button className="btn btn-arrow"><Link to="team-builder">
-                    Jump into Pokéchkr Team Builder
-                    <img src={isDarkMode ? darkArrow : lightArrow} alt="Arrow"/>
-                </Link></button>
+                <ArrowButton
+                    text="Jump into Pokéchkr Team Builder"
+                    to="team-builder"
+                />
             </div>
             <div className="second-home-container">
                 <div className="tagContainer">
@@ -60,10 +61,10 @@ const Home = () => {
                 </p>
                 <GymLeader key={"tate-liza"} gymLeaderData={"tate & liza"}/>
                 <div className="row">
-                    <button className="btn btn-arrow"><Link to="gym-leaders">
-                        Fight Gym Leaders
-                        <img src={isDarkMode ? darkArrow : lightArrow} alt="Arrow"/>
-                    </Link></button>
+                    <ArrowButton
+                        text="Fight Gym Leaders"
+                        to="gym-leaders"
+                    />
                     <button className="btn btn-secondary"><Link to="team-builder">
                         Check our News
                         <img src={externalLink}/>
@@ -82,10 +83,10 @@ const Home = () => {
                     Contributions to this project are always welcome - join us in supporting the community!
                 </p>
                 <div className="row">
-                    <button className="btn btn-arrow"><Link to="legend">
-                        Dive into our Legend
-                        <img src={isDarkMode ? darkArrow : lightArrow} alt="Arrow"/>
-                    </Link></button>
+                    <ArrowButton
+                        text="Dive into our Legend"
+                        to="legend"
+                    />
                     <button className="btn btn-secondary"><Link to="team-builder">
                         Github
                         <img src={externalLink}/>
