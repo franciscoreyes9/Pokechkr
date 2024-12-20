@@ -69,7 +69,7 @@ const GymLeaders = () => {
                 <hr/>
                 <ArrowButton
                     text="Navigate to Pokéchkr Team Builder"
-                    to="team-builder"
+                    to="/team-builder"
                 />
             </div>
         </div>
