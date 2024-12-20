@@ -49,6 +49,9 @@ const PokemonDetails = () => {
 
     return (
         <div className="first-home-container">
+            <div className="tagContainer">
+                <button className="btn btn-tag">Pokedéx</button>
+            </div>
             <div className="row">
                 <h1 id="pokemon-id">#{pokemon.id}</h1>
                 <h1>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h1>

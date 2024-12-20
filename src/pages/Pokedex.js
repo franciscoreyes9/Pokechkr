@@ -5,9 +5,9 @@ const Pokedex = () => {
         <div className="Pokedex">
             <div className="first-home-container">
                 <div className="tagContainer">
-                    <button className="btn btn-tag">Pokedex</button>
+                    <button className="btn btn-tag">Pokedéx</button>
                 </div>
-                <h1>Pokedex</h1>
+                <h1>Pokedéx</h1>
             </div>
         </div>
     );
